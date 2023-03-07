@@ -1,2 +1,2 @@
 # rozie.github.io
-rozie.me
+A dedicated repo for my website.
