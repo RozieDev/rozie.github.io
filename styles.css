@@ -1,0 +1,75 @@
+body {
+  background-color: #f47fff;
+  margin: 40px auto;
+  max-width: 650px;
+  line-height: 1.6;
+  font-size: 18px;
+  color: #eee;
+  padding: 0 10px;
+  font-family: "Inter";
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  line-height: 1.2;
+  cursor: default;
+}
+
+p {
+  cursor: default;
+}
+
+li {
+  color: #eee;
+}
+
+.links {
+  text-decoration: none;
+  color: #86efac;
+}
+
+.flex {
+  display: flex;
+}
+
+.w-48 {
+  width: 8.5rem;
+}
+
+.contacts {
+  padding: 1rem;
+  cursor: default;
+}
+
+.footer {
+  text-align: center;
+  font-weight: bold;
+}
+
+.custom-eft {
+  background: transparent;
+  cursor: default;
+}
+
+.eft5 {
+  color: #eee;
+  text-shadow: 0 0 0.05em #d6d6d6, 0 0 0.1em #d6d6d6, 0 0 0.15em #d6d6d6,
+    0 0 0.3em #d6d6d6;
+  filter: saturate(80%);
+  -webkit-background-clip: text;
+  /* -webkit-box-reflect: below -0.25em -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(rgba(255, 255, 255, 0.6)),
+      to(transparent)
+    ); */
+}
+
+.eft4 {
+  color: transparent;
+  background: linear-gradient(0deg, #000 0% 50%, #bbb 50% 100%);
+  -webkit-background-clip: text;
+}
